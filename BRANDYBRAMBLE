@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Index</title>
-
+  <title>Gamble With A Bramble</title>
   <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
-
 </head>
 <body>
   <div class="contrast">
-    <h1>Cocktails!</h1>
-
-    <p>What do you want to drink?</p>
-
+    <h1>The Classic Bramble</h1>
