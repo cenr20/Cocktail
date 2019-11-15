@@ -3,15 +3,18 @@ h1 {
     font-size: 7vw;
     color: rgb(85, 85, 85);
     text-align: justify;
-    background-color: #c4c1b3;
+    background-color: #0000
 }
 img {
           display: block;
           padding: 10px;
           margin: auto;
-          width: 30%;
+          width: 60%;
           float: left;
 }
 body{
-      background-color: #c4c1b3;
+    
+}
+div.Ingredients {
+    background-color: #c4c1b3;
 }
