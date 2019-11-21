@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Moscow Mule</title>
-  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
-  <h1>Moscow Mule<img src="./moscow mule.jpg" alt="Moscow Mule" width="200px"></h1>
-    <p>
-      Zesty and refreshing, this classic Moscow Mule is a real crowd pleaser.
-      <br>
-      Serves 1
-    </p>
-    <div class="contrast">
-    <h2>Ingredients<h2>
-    <ul>
-      <li>50 ml Vodka</li>
-      <li>Juice of half a lime</li>
-      <li>100 ml Ginger beer</li>
-      <li>Crushed ice</li>
+
+  <div class="jumbotron text-center">
+    <h1>Moscow Mule
+    <br>
+  </h1>
+  </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-6">
+          <p><img class="img-responsive" src="./moscow mule.jpg" alt="Moscow Mule" width="300px"></p>
+        </div>
+        <div class="col-sm-6">
+          <h4>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+            <small>13 Reviews</small>
+            <br><br>
+            Zesty and refreshing, this classic Moscow Mule is a real crowd pleaser. Traditionally served in a copper mug which takes on the cool temperature of the drink.
+            <br><br>
+            <ul class="list-inline">
+              <li><span class="glyphicon glyphicon-glass"></span>
+                  <small>Serves 1</small></li>
+              <li><span class="glyphicon glyphicon-time"></span>
+                  <small>5 Minutes</small></li>
+              <li><span class="glyphicon glyphicon-cutlery"></span>
+                  <small>Easy</small></li>
+            </ul>
+          <h4>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="container">
+
+    <ul class="nav nav-tabs nav-justified">
+      <li class="active"><a data-toggle="tab" href="#ingredients"><h3>Ingredients<h3></a></li>
+      <li><a data-toggle="tab" href="#method"><h3>Method<h3></a></li>
     </ul>
-    <h2>Method<h2>
-    <ol>
-      <li>Fill a copper mug half full with crushed ice.</li>
-      <li>Pour in the vodka, lime juice and ginger beer, and stir.</li>
-      <li>Garnish with a wedge of lime and a sprig of mint</li>
-    </ol>
-  <div/>
+
+    <div class="tab-content">
+      <div id="ingredients" class="tab-pane fade in active">
+        <ul>
+         	<li>50 ml Vodka</li>
+          <li>Juice of half a lime</li>
+          <li>100 ml Ginger beer</li>
+          <li>Crushed ice</li>
+        </ul>
+        <br><br>
+      </div>
+      <div id="method" class="tab-pane fade">
+        <ol>
+         	<li>Fill a copper mug half full with crushed ice.</li>
+         	<li>Pour in the vodka, lime juice and ginger beer, and stir.</li>
+         	<li>Garnish with a wedge of lime and a sprig of mint</li>
+          <br><br>
+        </ol>
+      </div>
+    </div>
+  </div>
+
 </body>
