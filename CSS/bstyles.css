@@ -1,0 +1,29 @@
+div.jumbotron { background-color: #f9ecf9; }
+
+img { padding: 5px;
+      margin: auto;
+      width: 60%; }
+
+li { margin: 20px;}
+
+ul { font-size: 16px;}
+
+p { font-size: 16px;}
+
+ol { font-size: 16px;}
+
+div#comment-box { margin:20px;}
+
+button { margin: 20px;}
+
+div#comment-header { margin: 20px;}
+
+div.contrast { background-color: #f9ecf9; }
+
+.nav-tabs > li > a{ border: medium none;
+                    color:  #ac39ac;
+                    background-color: #f9ecf9; }
+
+.nav-tabs > li > a:hover{  border: medium none;
+                           border-radius: 0;
+                           color: #ac39ac; }
