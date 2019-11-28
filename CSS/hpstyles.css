@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #fffa99;
+    text-align: center}
+
+
+img {
+  margin: auto;
+}
+
+h1 {font-size: 4vw;
+    background-color: #fffa99;
+    text-align: center;}
+
+p { font-size: 4vw;
+    background-color: #fffa99;
+    text-align: center;}
+
+
+
+
+
+
+.exampleModal {
+   background-color: #fffa99
+}
+
+.idea  {
+    background-color: #0057fc;
+    color: black;
+}
+
+
+.nav-tabs > li > a{ border: medium none;
+                    color:  #ac39ac;
+                    background-color: #f9ecf9; }
+
+.nav-tabs > li > a:hover{  border: medium none;
+                            border-radius: 0;
+                            color: #ac39ac; }
