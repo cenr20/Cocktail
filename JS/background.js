@@ -1,4 +1,4 @@
-var backgrounds = ['Drinks_1', 'Drinks_2', 'Drinks_3']
+var backgrounds = ['Inspiration1', 'Inspiration2', 'Inspiration3']
 
 $( document ).ready(function(){
     $('h1').on('click', function () {
