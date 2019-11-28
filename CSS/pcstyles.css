@@ -25,3 +25,10 @@ div.contrast { background-color: #ffe6e6; }
 .nav-tabs > li > a:hover{  border: medium none;
                            border-radius: 0;
                            color: #ff6666; }
+
+#sent { margin-left: 20px;}
+
+#para { margin-left: 40px;
+        border-radius: 5px;
+        width: 40%;
+        background-color: white;}
