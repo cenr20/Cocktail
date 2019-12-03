@@ -1,24 +1,22 @@
-.navbar {
-    background-color: #ecedff;
-  }
+.navbar {padding: 25px;
+          background-color: #ecedff;
+          text-align: center;}
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-      background-color: #FFFEE0;}
+      background-color: #a0a5ff;}
 
-
-body {background-color: #FFFEE0}
 
 .carousel-inner img{margin: auto;}
 
 
-h1 {font-size: 4vw;
-    background-color: #ecedff;}
+h1 {font-size: 4vw;}
+h2 {font-size: 3vw;}
 
-p1:hover {font-size: 2vw;}
+p1:hover {color:#a0a5ff;
+          font-size:2vw;}
 
-p2:hover {font-size: 2vw;
-          color: white;}
+p2:hover {font-size: 2vw;}
 
 .bg-1 {background-color: #ecedff;}
 
@@ -32,12 +30,13 @@ p2:hover {font-size: 2vw;
 .container-fluid {padding: 5vw}
 
 h2 { font-size: 25px;
-    background-color: #FFFEE0;
+  font-weight: bold;
     text-align: center;}
 
 
 p:hover {font-size: 25px;
-    background-color: #FFFEE0;}
+          font-style: italic;
+          color: #a0a5ff; }
 
 label {font-size: 4vw;
     background-color: #FFFEE0;
