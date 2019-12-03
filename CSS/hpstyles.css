@@ -1,6 +1,7 @@
-.navbar {padding: 25px;
+.navbar {padding: 30px;
           background-color: #ecedff;
-          text-align: center;}
+          ;
+          }
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
