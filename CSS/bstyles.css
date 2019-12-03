@@ -2,6 +2,10 @@
     background-color: #e0e1ff;
     text-align: center}
 
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+              background-color: #f9ecf9;}
+
 div.jumbotron { background-color: #f9ecf9; }
 
 img { padding: 5px;
