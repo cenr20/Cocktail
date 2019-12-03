@@ -1,5 +1,11 @@
 .navbar {
-    background-color: #e0e1ff;}
+    background-color: #ecedff;
+  }
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+      background-color: #FFFEE0;}
+
 
 body {background-color: #FFFEE0}
 
@@ -7,20 +13,20 @@ body {background-color: #FFFEE0}
 
 
 h1 {font-size: 4vw;
-    background-color: #e0e1ff;}
+    background-color: #ecedff;}
 
 p1:hover {font-size: 2vw;}
 
 p2:hover {font-size: 2vw;
           color: white;}
 
-.bg-1 {background-color: #e0e1ff;}
+.bg-1 {background-color: #ecedff;}
 
 
-.bg-2 {background-color: #e0e1ff;}
+.bg-2 {background-color: #ecedff;}
 
 
-.bg-3 {background-color: #e0e1ff;}
+.bg-3 {background-color: #ecedff;}
 
 
 .container-fluid {padding: 5vw}
