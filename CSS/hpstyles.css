@@ -1,46 +1,46 @@
 .navbar {
-    background-color: #fffa99;
-    text-align: center}
+    background-color: #e0e1ff;}
 
+body {background-color: #FFFEE0}
 
-img {
-  margin: auto;
-}
+.carousel-inner img{margin: auto;}
+
 
 h1 {font-size: 4vw;
-    background-color: #fffa99;
-    text-align: center;}
+    background-color: #e0e1ff;}
 
-p { font-size: 4vw;
-    background-color: #fffa99;
-    text-align: center;}
+p1:hover {font-size: 2vw;}
 
+p2:hover {font-size: 2vw;
+          color: white;}
 
-    <style>
+.bg-1 {background-color: #e0e1ff;}
+
 
       p:hover {
       font-size: 5vw;
       transition: 0.6s ease;
       }
 
-      </style>
+.bg-2 {background-color: #e0e1ff;}
 
 
-
-.exampleModal {
-   background-color: #fffa99
-}
-
-.idea  {
-    background-color: #0057fc;
-    color: black;
-}
+.bg-3 {background-color: #e0e1ff;}
 
 
-.nav-tabs > li > a{ border: medium none;
-                    color:  #ac39ac;
-                    background-color: #f9ecf9; }
+.container-fluid {padding: 5vw}
 
-.nav-tabs > li > a:hover{  border: medium none;
-                            border-radius: 0;
-                            color: #ac39ac; }
+h2 { font-size: 25px;
+    background-color: #FFFEE0;
+    text-align: center;}
+
+
+p:hover {font-size: 25px;
+    background-color: #FFFEE0;}
+
+label {font-size: 4vw;
+    background-color: #FFFEE0;
+    text-align: center;}
+
+h5 {background-color: #FFFEE0;
+    text-align: center;}

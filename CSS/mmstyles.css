@@ -1,3 +1,7 @@
+.navbar {
+    background-color: #e0e1ff;
+    text-align: center}
+
 div.jumbotron { background-color: #ecf9ec; }
 
 img { padding: 5px;
@@ -25,6 +29,15 @@ div.contrast { background-color: #ecf9ec; }
 .nav-tabs > li > a:hover{  border: medium none;
                            border-radius: 0;
                            color: #79d279; }
+
+#sent { margin-left: 20px;
+        }
+
+#para { margin-left: 40px;
+        border-radius: 5px;
+        width: 40%;
+        background-color: white;
+        }
 
 ul#main { list-style: none;
           display: flex }
