@@ -4,10 +4,11 @@
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
-      background-color: #a0a5ff;}
+          color: #a0a5ff;}
 
 
-.carousel-inner img{margin: auto;}
+img#carouselExampleSlidesOnly { margin: auto;
+                                width: 60%; }
 
 
 h1 {font-size: 4vw;}
@@ -29,18 +30,18 @@ p2:hover {font-size: 2vw;}
 
 .container-fluid {padding: 5vw}
 
-h2 { font-size: 25px;
-  font-weight: bold;
+h2 { font-size: 50px;
+    font-family: sans-serif;
     text-align: center;}
 
 
-p:hover {font-size: 25px;
+h5:hover {font-size: 25px;
           font-style: italic;
           color: #a0a5ff; }
 
-label {font-size: 4vw;
-    background-color: #FFFEE0;
-    text-align: center;}
 
-h5 {background-color: #FFFEE0;
+h6 {color:#a0a5ff}
+
+label {font-size: 4vw;
+      color:#a0a5ff;
     text-align: center;}
