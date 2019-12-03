@@ -1,24 +1,37 @@
-.navbar {padding: 30px;
-          background-color: #ecedff;
-          ;
+.navbar {background-color: #ecedff;
           }
 
-.navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > li > a:focus {
-          color: #a0a5ff;}
+.navbar-nav > li{padding-left:30px;
+                  padding-right:30px;
+                  padding-top: 2vw;
+                  }
 
 
-img#carouselExampleSlidesOnly { margin: auto;
-                                width: 60%; }
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+                          color: #a0a5ff;
+                  }
+
+
+#carouselExampleSlidesOnly img {width: 60%;
+                  margin-left: 15vw;}
+
+
+
+img#mule {width: 100%;}
+img#bramble {width: 100%;}
+img#pina {width: 100%;}
 
 
 h1 {font-size: 4vw;}
 h2 {font-size: 3vw;}
 
 p1:hover {color:#a0a5ff;
-          font-size:2vw;}
+          font-size:25px;}
 
-p2:hover {font-size: 2vw;}
+p2:hover {font-size: 25px;
+          color:#a0a5ff;}
 
 .bg-1 {background-color: #ecedff;}
 
@@ -40,6 +53,7 @@ h5:hover {font-size: 25px;
           font-style: italic;
           color: #a0a5ff; }
 
+button#But1 {margin-left: 17vw;}
 
 h6 {color:#a0a5ff}
 

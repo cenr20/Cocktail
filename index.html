@@ -22,20 +22,20 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav justify-content-center mr-auto">
-          <li class="nav-item active">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active text-center">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-center">
             <a class="nav-link" href="bramble.html">Gamble with a Bramble</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-center">
             <a class="nav-link" href="moscowmule.html">Mules Rule</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-center">
             <a class="nav-link" href="pinacolada.html">If you like Pina Colada...</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-center">
             <a class="nav-link" href="opening.html">Inspiration</a>
           </li>
         </ul>
@@ -55,13 +55,13 @@
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Images\Drinks_1.jpg" alt="Example cocktails">
+          <img src="Images\Drinks_1.jpg" alt="Example cocktails" width="60%" align="center">
         </div>
         <div class="carousel-item">
-          <img src="Images\Drinks_2.jpg" alt="Example cocktails">
+          <img src="Images\Drinks_2.jpg" alt="Example cocktails" width="60%" align="center">
         </div>
         <div class="carousel-item">
-          <img src="Images\Drinks_3.jpg" alt="Example cocktails">
+          <img src="Images\Drinks_3.jpg" alt="Example cocktails" width="60%" align="center">
         </div>
       </div>
     </div>
@@ -81,15 +81,15 @@
         <div class="row">
           <div class="col-sm">
             <h5>The Bramble</h5>
-            <a href="bramble.html" type="button" class="btn btn-lg btn-responsive center" data-toggle="popover" title="Gamble with a bramble" data-content="A simple, refreshing drink"><img src="Bramble.JPG" class="img-responsive" width="200px"></a>
+            <a href="bramble.html" type="button" class="btn btn-lg btn-responsive center" data-toggle="popover" title="Gamble with a bramble" data-content="A simple, refreshing drink"><img id="bramble" src="Bramble.JPG" class="img-responsive" width="200px"></a>
           </div>
           <div class="col-sm">
             <h5>Moscow Mule</h5>
-            <a href="moscowmule.html" type="button" class="btn btn-lg btn-responsive center" data-toggle="popover" title="Mules rule!" data-content="A tangy modern drink"><img src="moscow mule.jpg" class="img-responsive" width="200px"></a>
+            <a href="moscowmule.html" type="button" class="btn btn-lg btn-responsive center" data-toggle="popover" title="Mules rule!" data-content="A tangy modern drink"><img  id="mule" src="moscow mule.jpg" class="img-responsive" width="200px"></a>
           </div>
           <div class="col-sm">
             <h5>Pina Colada</h5>
-            <a href="pinacolada.html" type="button" class="btn btn-lg btn-responsive center" data-toggle="popover" title="I like a Pina Colada" data-content="The classic beach drink"><img src="Images\pina-colada.jpg" class="img-responsive" width="200px"></a>
+            <a href="pinacolada.html" type="button" class="btn btn-lg btn-responsive center" data-toggle="popover" title="I like a Pina Colada" data-content="The classic beach drink"><img id="pina" src="Images\pina-colada.jpg" class="img-responsive" width="200px"></a>
           </div>
         </div>
       </div>
@@ -108,7 +108,8 @@
         </div>
       </div>
 <br>
-      <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">We are always on the lookout for more cocktail recipes to add to our collection! If there is one you think we are missing, please send it over by clicking here!</button>
+      <button id ="But1" type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><p>We are always on the lookout for more cocktail recipes to add to our collection!</p>
+        <p>If there is one you think we are missing, please send it over by clicking here!</p></button>
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
