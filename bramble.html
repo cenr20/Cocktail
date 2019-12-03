@@ -13,27 +13,35 @@
 
 <body>
 
-  <nav class="navbar navbar-default navbar-expand-md navbar-light">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Cocktails</a>
-      </div>
-       <div class="collapse navbar-collapse" id="myNavbar">
-         <ul class="nav navbar-nav">
-           <li><a href="index.html">Home</a></li>
-           <li><a href="bramble.html">Gamble with a Bramble</a></li>
-           <li><a href="moscowmule.html">Mules Rule</a></li>
-           <li><a href="pinacolada.html">If you like Pina Colada...</a></li>
-           <li><a href="opening.html">Inspiration</a></li>
-         </ul>
-       </div>
-      </div>
-  </nav>
+
+  <div>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top" id="heading">
+          <a id="home" class="navbar-brand" href="#">Cocktails</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a id="index" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a id="bramble" class="nav-link" href="bramble.html">Gamble with a Bramble</a>
+              </li>
+              <li class="nav-item">
+                <a id="mule" class="nav-link" href="moscowmule.html">Mules Rule</a>
+              </li>
+              <li class="nav-item">
+                <a id="pina" class="nav-link" href="pinacolada.html">I like a Pina Colada</a>
+              </li>
+              <li class="nav-item">
+                <a id="opening" class="nav-link" href="opening.html">Inspiration...</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </div>
 
 
   <div class="jumbotron text-center">
