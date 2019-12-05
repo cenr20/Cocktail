@@ -58,23 +58,8 @@ transition: 0.6s ease;
   </div>
 </div>
   </div>
-<script>
-  var backgrounds = ['Inspiration1', 'Inspiration2', 'Inspiration3']
 
-  $( document ).ready(function(){
-      $('h1').on('click', function () {
-
-        var randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-        var imageUrl = "url('./images/" + randomBackground + ".jpg')"
-
-    $('body').css('background', imageUrl)
-    $('span').text(randomBackground)
-
-
-    })
-  })
-</script>
-
+  <script src="js/background.js"></script>
 
 </body>
 </html>
